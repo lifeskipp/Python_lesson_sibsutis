@@ -1,15 +1,15 @@
 #это решение по выходным данным
-dict = {}
+diction = {}
 for count in input().split():
-    dict[count] = dict.get(count, 0) + 1
-print(dict)
+    diction[count] = diction.get(count, 0) + 1
+print(diction)
 
 #а это по условию задачи
 
 '''
-dict = {}
+diction = {}
 for count in input().split():
-    dict[count] = dict.get(count, 0) + 1
-    print(dict[count] - 1, end=' ')
+    diction[count] = diction.get(count, 0) + 1
+    print(diction[count] - 1, end=' ')
 '''
 

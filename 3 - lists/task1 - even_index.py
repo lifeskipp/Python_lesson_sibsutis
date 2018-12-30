@@ -1,5 +1,4 @@
-s = input()
-list = s.split()
-for i in range(len(list)):
+s = input().split()
+for i in range(len(s)):
     if i % 2 == 0:
-        print(list[i], end=' ')
+        print(s[i], end=' ')
